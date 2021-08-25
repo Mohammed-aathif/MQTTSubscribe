@@ -1,0 +1,9 @@
+{
+    "url":"mqtts://hostname:post",
+    "username" : "some_username",
+    "password" : "some_password",
+    "topic" : "topic_to_subscribe",
+    "logURL": "My API which triggers email to user during exceptions",
+    "certURL": "My API which triggers MQTT message to Logic App and Azure Key Vault",
+    "SubscriptionKey": "some subscription key"
+}
