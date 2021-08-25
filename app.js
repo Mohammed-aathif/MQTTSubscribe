@@ -34,7 +34,7 @@ client.on('error', function (error) {
 });
 
 client.on('message',function(topic, message, packet){
-	console.log("Received a new certificate");
+	console.log("Received a new message");
 	var rqstPayload = message.toString('utf-8');	
 	var certURL = CONFIG.certURL;
 	if(rqstPayload.includes("msg"))
